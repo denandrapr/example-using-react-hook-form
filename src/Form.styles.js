@@ -6,7 +6,7 @@ import {StyleSheet} from 'react-native';
 const FormStyles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#5c6bc0',
+    backgroundColor: '#FFF',
     paddingTop: 64,
     padding: 16,
   },
@@ -15,6 +15,33 @@ const FormStyles = StyleSheet.create({
     paddingVertical: 12,
     paddingHorizontal: 8,
     borderRadius: 5,
+    marginBottom: 16,
+    borderWidth: 1,
+    // borderColor: '#bdbdbd',
+  },
+  textStyles: {
+    color: '#000',
+    fontWeight: '500',
+    marginBottom: 8,
+  },
+  buttonStyle: {
+    marginTop: 24,
+    backgroundColor: '#ffa726',
+    alignContent: 'center',
+    justifyContent: 'center',
+    paddingVertical: 16,
+    borderRadius: 5,
+  },
+  submitStyles: {
+    alignSelf: 'center',
+    color: '#FFF',
+    fontWeight: 'bold',
+  },
+  borderColorGrey: {
+    borderColor: '#bdbdbd',
+  },
+  borderColorRed: {
+    borderColor: '#e53935',
   },
 });
 
