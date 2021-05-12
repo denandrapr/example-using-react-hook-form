@@ -49,6 +49,10 @@ const FormStyles = StyleSheet.create({
     color: '#e53935',
     marginTop: 4,
   },
+  previewStyles: {
+    marginTop: 16,
+    fontWeight: 'bold',
+  },
 });
 
 export default FormStyles;
