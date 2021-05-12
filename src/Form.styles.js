@@ -1,7 +1,4 @@
-//package import
 import {StyleSheet} from 'react-native';
-
-//local import
 
 const FormStyles = StyleSheet.create({
   container: {
@@ -15,7 +12,6 @@ const FormStyles = StyleSheet.create({
     paddingVertical: 12,
     paddingHorizontal: 8,
     borderRadius: 5,
-    marginBottom: 16,
     borderWidth: 1,
     // borderColor: '#bdbdbd',
   },
@@ -23,9 +19,10 @@ const FormStyles = StyleSheet.create({
     color: '#000',
     fontWeight: '500',
     marginBottom: 8,
+    marginTop: 16,
   },
   buttonStyle: {
-    marginTop: 24,
+    marginTop: 16,
     backgroundColor: '#ffa726',
     alignContent: 'center',
     justifyContent: 'center',
@@ -42,6 +39,15 @@ const FormStyles = StyleSheet.create({
   },
   borderColorRed: {
     borderColor: '#e53935',
+  },
+  textTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    marginBottom: 32,
+  },
+  errorText: {
+    color: '#e53935',
+    marginTop: 4,
   },
 });
 
